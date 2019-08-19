@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crude Man's Boots & Shoes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   
+<!-- Make the news sign disappear when scroll down
+ --- Make a toggle dropdown menu for the filters -->
+
+    <!-- Navigation Section -->
+   <div class="navbar"> 
+    <div class="news_sign">
+        <h3>Free Shipping & Returns In The U.S.</h3>
+    </div>
+    <div class="navigation_container">
+        <div class="nav">
+            <a>Boots</a>
+            <a>Shoes</a>
+            <a>New</a>
+        </div>
+        <div class="brand">
+            <h1>Crude</h1>
+        </div>
+        <div class="access">
+            <a>Login</a>
+            <a>Cart</a>
+            <a>Search</a>
+        </div>
+    </div>
+</div>
+    <div class="main_img">
+        <h2>Rock Your Night</h2>
+    </div>
+
+    <!-- Prodcut Section-->
+    <div class="product_container">
+        <div class="filter_container">
+            <div class="filters">
+                <label>Filter By</label>
+                <a>Clear Filters</a>
+            <hr>
+                    <div class="color_filter" id="color_filter">
+                        <label for="color_filter">Color</label><br>
+                        <span>
+                            <input type="radio" id="colorbrown" class="filter-btn" data-filter="brownboot"> Brown<br>
+                            <input type="radio" id="colorblack" class="filter-btn" data-filter="blackboot"> Black<br>
+                            <input type="radio" id="coloroxblood" class="filter-btn" data-filter="oxbloodboot"> Oxblood<br>
+                            <input type="radio" id="colorgrey" class="filter-btn" data-filter="greyboot"> Grey<br>
+                        </span>
+                    </div>
+                    <hr>
+                    <div class="size_filter" id="size_filter">
+                        <label for="size_filter">Size</label><br>
+                        <span>
+                            <input type="radio" id="size8" class="filter-btn" data-filter="s8"> 8<br>
+                            <input type="radio" id="size9" class="filter-btn" data-filter="s9"> 9<br>
+                            <input type="radio" id="size10" class="filter-btn" data-filter="s10"> 10<br>
+                            <input type="radio" id="size11" class="filter-btn" data-filter="s11"> 11<br>
+                            <input type="radio" id="size12" class="filter-btn" data-filter="s12"> 12<br>
+                        </span>
+                    </div>
+                    <hr>
+                    <div class="material_filter" id="material_filter">
+                        <label for="material_filter">Color</label><br>
+                        <span>
+                            <input type="radio" id="leather" class="filter-btn" data-filter="leather"> Leather<br>
+                            <input type="radio" id="suede" class="filter-btn" data-filter="suede"> Suede<br>
+                            <!--<input type="radio" id="weave" class="filter-btn" data-filter="weave"> Weave<br>
+                            <input type="radio" id="wool" class="filter-btn" data-filter="wool"> Wool<br>-->
+                        </span>
+                    </div>
+            </div>
+        </div>
+        <div id="boot_container">
+            <!--
+            <div class="boot" id="dylan_boot" data-item="brownboot blackboot s8 s9 s10 s11 s12 leather">
+                <a><img src="images/boot.jpg"></a>
+                <div class="price_sec">
+                    <h3>Dylan Boot</h3>
+                    <p>in Beige</p>
+                    <p>$250</p>
+                    <div class="review_star">
+                        <i class="material-icons">star_rate</i>
+                        <i class="material-icons">star_rate</i>
+                        <i class="material-icons">star_rate</i>
+                        <i class="material-icons">star_rate</i>
+                        <i class="material-icons">star_rate</i>
+                        <span class=review_count>(49)</span>
+                    </div>
+                </div>
+            </div>
+        -->
+    </div>
+
+
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <script src="script.js"></script>
+    <script src="ajax.js"></script>
+
+</body>
+
+</html>
