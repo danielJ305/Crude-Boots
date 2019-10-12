@@ -97,7 +97,8 @@ body {
 
 /*---- Filters ----*/
 .filter_container {
-    width: 600px;
+    width: 100%;
+    max-width: 225px;
     background-color: #1B2631;
     /*background-image: url(images\Untitled-1.svg);*/
     background-size: cover;
@@ -110,8 +111,8 @@ body {
 .filters {
         display:flex;
         flex-direction:column;
-        padding-left: 20px;
-        padding-top: 10px;
+        padding-left: 40px;
+        padding-top: 20px;
         font-size: 18px;
         color: lemonchiffon;
 }

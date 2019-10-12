@@ -1,9 +1,9 @@
 [
     {
         "bootname": "Jack",
-        "color": "Navy/Brown",
+        "color": "navy/brown",
         "price": "$235",
-        "size": "10",
+        "size": [8, 9, 10],
         "material": "leather",
         "thumbnail": {
             "source": "https://cdn.shopify.com/s/files/1/0468/9441/products/Taft_OnWhite_20170727-039-min_540x.jpg?v=1543861690"
@@ -11,9 +11,9 @@
     },
     {
         "bootname": "Dragon",
-        "color": "Midnight",
+        "color": "midnight",
         "price": "$250",
-        "size": "10",
+        "size": [9, 10, 11],
         "material": "leather",
         "thumbnail": {
             "source": "https://cdn.shopify.com/s/files/1/0468/9441/products/mm_sized_Taft_OnWhite_20161120-080_1024x1024-min_540x.jpg?v=1531253690"
@@ -21,9 +21,9 @@
     },
     {
         "bootname": "Jude",
-        "color": "Gray",
+        "color": "gray",
         "price": "$240",
-        "size": "10",
+        "size": [8, 10, 12],
         "material": "suede",
         "thumbnail": {
             "source": "https://cdn.shopify.com/s/files/1/0468/9441/products/Taft_OnWhite_20190315-009-modified-compressed-min_540x.jpg?v=1559058787"
@@ -31,19 +31,19 @@
     },
     {
         "bootname": "Jude",
-        "color": "Tonal",
+        "color": "tonal",
         "price": "$250",
-        "size": "10",
+        "size": [8, 9, 10, 11],
         "material": "suede",
         "thumbnail": {
-            "source": "https://cdn.shopify.com/s/files/1/0468/9441/products/wc_TaftOnWhite_20160428_9177_grande_605f127f-71f5-44ab-aa24-87d7d6c38b61_540x.jpg?v=1558108286"
+            "source": "https://cdn.shopify.com/s/files/1/0468/9441/products/Taft_OnWhite_20190315-008-modified-compressed-min_540x.jpg?v=1559059223"
         }
     },
     {
         "bootname": "Dylan",
-        "color": "Black",
+        "color": "black",
         "price": "$250",
-        "size": "10",
+        "size": [10, 11, 12],
         "material": "leather",
         "thumbnail": {
             "source": "https://cdn.shopify.com/s/files/1/0468/9441/products/Taft_OnWhite_20170216-039-min_540x.jpg?v=1542949120"
@@ -51,9 +51,9 @@
     },
     {
         "bootname": "Rome",
-        "color": "Oxblood",
+        "color": "oxblood",
         "price": "$275",
-        "size": "10",
+        "size": [10, 11, 12],
         "material": "leather",
         "thumbnail": {
             "source": "https://cdn.shopify.com/s/files/1/0468/9441/products/Taft_OnWhite_20170216-057-min_540x.jpg?v=1543861973"
@@ -61,19 +61,19 @@
     },
     {
         "bootname": "Viking",
-        "color": "Midnight",
+        "color": "midnight",
         "price": "$250",
-        "size": "10",
+        "size": [8, 9, 11],
         "material": "leather",
         "thumbnail": {
-            "source": "https://cdn.shopify.com/s/files/1/0468/9441/products/Taft_OnWhite_VikingBoot_Black_20180821_3413-min_540x.jpg?v=1543604092"
+            "source": "https://cdn.shopify.com/s/files/1/0468/9441/products/Taft_OnWhite_20170727-015-min_540x.jpg?v=1543862274"
         }
     },
     {
         "bootname": "Troy",
-        "color": "Navy",
+        "color": "navy",
         "price": "$250",
-        "size": "10",
+        "size": [8, 10, 12],
         "material": "suede",
         "thumbnail": {
             "source": "https://cdn.shopify.com/s/files/1/0468/9441/products/Taft_OnWhite_20170727-028-saturated_540x.jpg?v=1558108315"
@@ -83,7 +83,7 @@
         "bootname": "Rome",
         "color": "black",
         "price": "$275",
-        "size": "10",
+        "size": [9, 10, 11],
         "material": "leather",
         "thumbnail": {
             "source": "https://cdn.shopify.com/s/files/1/0468/9441/products/wc_Taft_FW16_OnWhite_20160720_0010_540x.jpg?v=1549583322"

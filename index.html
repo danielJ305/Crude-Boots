@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
 </head>
 
 <body>
@@ -51,60 +52,43 @@
                     <div class="color_filter" id="color_filter">
                         <label for="color_filter">Color</label><br>
                         <span>
-                            <input type="radio" id="colorbrown" class="filter-btn" data-filter="brownboot"> Brown<br>
-                            <input type="radio" id="colorblack" class="filter-btn" data-filter="blackboot"> Black<br>
-                            <input type="radio" id="coloroxblood" class="filter-btn" data-filter="oxbloodboot"> Oxblood<br>
-                            <input type="radio" id="colorgrey" class="filter-btn" data-filter="greyboot"> Grey<br>
+                            <input type="checkbox" id="colorbrown" class="filter-btn color-btn"> Brown<br>
+                            <input type="checkbox" id="colorblack" class="filter-btn color-btn"> Black<br>
+                            <input type="checkbox" id="coloroxblood" class="filter-btn color-btn"> Oxblood<br>
+                            <input type="checkbox" id="colorgray" class="filter-btn color-btn"> Gray<br>
+                            <input type="checkbox" id="colortonal" class="filter-btn color-btn"> Tonal<br>
                         </span>
                     </div>
                     <hr>
                     <div class="size_filter" id="size_filter">
                         <label for="size_filter">Size</label><br>
                         <span>
-                            <input type="radio" id="size8" class="filter-btn" data-filter="s8"> 8<br>
-                            <input type="radio" id="size9" class="filter-btn" data-filter="s9"> 9<br>
-                            <input type="radio" id="size10" class="filter-btn" data-filter="s10"> 10<br>
-                            <input type="radio" id="size11" class="filter-btn" data-filter="s11"> 11<br>
-                            <input type="radio" id="size12" class="filter-btn" data-filter="s12"> 12<br>
+                            <input type="checkbox" id="size8" class="filter-btn size-btn"> 8<br>
+                            <input type="checkbox" id="size9" class="filter-btn size-btn"> 9<br>
+                            <input type="checkbox" id="size10" class="filter-btn size-btn"> 10<br>
+                            <input type="checkbox" id="size11" class="filter-btn size-btn"> 11<br>
+                            <input type="checkbox" id="size12" class="filter-btn size-btn"> 12<br>
                         </span>
                     </div>
                     <hr>
                     <div class="material_filter" id="material_filter">
-                        <label for="material_filter">Color</label><br>
+                        <label for="material_filter">Material</label><br>
                         <span>
-                            <input type="radio" id="leather" class="filter-btn" data-filter="leather"> Leather<br>
-                            <input type="radio" id="suede" class="filter-btn" data-filter="suede"> Suede<br>
-                            <!--<input type="radio" id="weave" class="filter-btn" data-filter="weave"> Weave<br>
-                            <input type="radio" id="wool" class="filter-btn" data-filter="wool"> Wool<br>-->
+                            <input type="checkbox" id="leather" class="filter-btn" data-filter="leather"> Leather<br>
+                            <input type="checkbox" id="suede" class="filter-btn" data-filter="suede"> Suede<br>
                         </span>
                     </div>
             </div>
         </div>
         <div id="boot_container">
-            <!--
-            <div class="boot" id="dylan_boot" data-item="brownboot blackboot s8 s9 s10 s11 s12 leather">
-                <a><img src="images/boot.jpg"></a>
-                <div class="price_sec">
-                    <h3>Dylan Boot</h3>
-                    <p>in Beige</p>
-                    <p>$250</p>
-                    <div class="review_star">
-                        <i class="material-icons">star_rate</i>
-                        <i class="material-icons">star_rate</i>
-                        <i class="material-icons">star_rate</i>
-                        <i class="material-icons">star_rate</i>
-                        <i class="material-icons">star_rate</i>
-                        <span class=review_count>(49)</span>
-                    </div>
-                </div>
-            </div>
-        -->
+           
     </div>
 
 
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
-    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="ajax.js"></script>
+    <script src="filters.js"></script>
 
 </body>
 

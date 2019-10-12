@@ -25,10 +25,14 @@ document.addEventListener("DOMContentLoaded", () => {
 function generateHTML(data) {
     const boot = document.createElement('div');
     boot.className = 'boot';
+    // $('div.boot').attr('color', `${data.color}`);
+    // data.size.forEach(element => {
+    //     console.log(element);
+    // });
     bootContainer.appendChild(boot);
     boot.innerHTML = `
         <a><img src="${data.thumbnail.source}"></a>
-        <div class="price_sec">
+        <div class="price_sec" color="${data.color}" size="${data.size}" material="${data.material}">
             <h3>${data.bootname} Boot</h3>
             <p>in ${data.material}</p>
             <p>${data.price}</p>
@@ -41,4 +45,5 @@ function generateHTML(data) {
                 <span class=review_count> (49) </span> 
             </div>
         `;
+        
 }
